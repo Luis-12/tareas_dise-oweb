@@ -1,0 +1,253 @@
+
+body{
+	font-family: "Arnhem",Times,Courier,serif;
+}
+
+nav li a:hover{
+	color: #f42535 !important;
+}
+
+nav{
+	background-color: black;
+}
+
+nav li a{
+	color: white !important;
+	font-size: 17px !important;
+	font-weight: 500;
+	font-family: "Arnhem",Times,Courier,serif;
+}
+
+.icon {
+    display: inline-block;
+    min-width: 16px;
+    min-height: 16px;
+    cursor: pointer;
+}
+
+.icon__logo--header {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%2253%22%20viewBox%3D%220%200%20120%2053%22%3E%3Cg%20fill%3D%22%23FFF%22%3E%3Cpath%20d%3D%22M81.167%2011.151l1.293%202.909.645-3.07%203.071-.323-2.747-1.616.647-2.908-2.264%201.939-2.584-1.455%201.131%202.747-2.262%202.101zM98.456%2028.117l2.101-2.424%202.747%201.293-1.455-2.585%201.939-2.424-2.908.647-1.616-2.586-.324%203.07-3.069.646%202.908%201.293zM57.738%207.597l2.585-1.939%202.424%201.939-.97-3.07%202.585-1.777h-3.069l-.97-2.909-.969%202.909h-3.07l2.424%201.777zM37.379%2010.99l.646%203.07%201.293-2.909%203.07.324-2.424-2.101%201.293-2.747-2.586%201.455-2.423-1.939.646%202.908-2.585%201.616zM17.182%2026.986l2.746-1.293%202.101%202.424-.323-3.07%202.747-1.293-2.909-.646-.323-3.07-1.616%202.586-3.07-.647%202.101%202.424zM119.784%2049.931l-1.454-2.424H62.585c0-1.939%202.101-1.939%203.232-1.939h51.543l-1.454-2.424H67.109c-1.292%200-3.555.162-4.201.323.646-2.262%204.362-2.424%209.533-2.424h42.173l-1.455-2.423H73.411c-4.04%200-8.079.161-10.18%201.615%201.938-2.746%205.333-3.555%2013.572-3.555h35.225l-1.454-2.424H76.966C64.848%2034.257%2060%2037.328%2060%2047.022c0-9.694-4.847-12.766-16.966-12.766H9.426L7.972%2036.68h35.062c8.24%200%2011.634.809%2013.573%203.555-2.101-1.454-5.979-1.615-10.18-1.615H6.841l-1.454%202.423h42.171c5.333%200%208.887.162%209.533%202.424-.646-.161-2.908-.323-4.201-.323H4.094L2.64%2045.567h51.543c1.131%200%203.232%200%203.232%201.939H1.67L.216%2049.93h57.36v1.454h5.009V49.93h57.199z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+}
+
+nav .icon__logo--header {
+    width: 140px;
+    height: 62px;
+    margin-bottom: 5px;
+}
+
+.navspam{
+background-size: 100%;
+margin-left: 25px;
+}
+
+.navtitle{
+ font-size: 26px !important;
+ letter-spacing: -0.04em;
+}
+
+.uk-left{
+	position: absolute;
+	bottom: -4px
+}
+
+.uk-right{
+	position: relative;
+	bottom: -40px
+}
+
+.heg1{
+	height: 150px;
+}
+
+hr{
+	height: 7px;
+	background-color: black;
+}
+
+i{
+	color: #f42535;
+	font-size: 18px;
+	letter-spacing: 0.05em;
+	font-weight: 600;
+}
+
+@font-face {
+ font-family:'Calibre';
+ src:url("https://www.loa.org/assets/CalibreWeb-Regular-03d353842f926cf4fc258dc92184f018fdbbe5aac5a4e62a5676efc651bdab6f.woff") format("woff");
+ font-weight:500;
+ font-style:normal
+}
+@font-face {
+ font-family:'Calibre';
+ src:url("https://www.loa.org/assets/CalibreWeb-Medium-d96964f261662b168496cead70d3709f324729efed780f395ba970c39d1537c1.woff") format("woff");
+ font-weight:600;
+ font-style:normal
+}
+@font-face {
+ font-family:'Arnhem';
+ src:url("ArnhemPro-Blond-ff7fc978b6e0e20940d79f588bdf0d5379637dfed4516d1706646eb8354d5135.woff") format("woff");
+ font-weight:500;
+ font-style:normal
+}
+@font-face {
+ font-family:'Arnhem';
+ src:url("ArnhemPro-BlondItalic-c17bc26fa9b6e4e8a63c4525b41144e1a094bca826d43187719fbb93ec08e454.woff") format("woff");
+ font-weight:500;
+ font-style:italic
+} 
+
+p{
+	color: black;
+	font-size: 24px;
+	margin-top: 5px;
+}
+
+#c1 p{
+  font-size: 39px;
+}
+
+#c2 span{
+	color: #f42535;
+}
+
+#c2 span:hover{
+	color: black;
+}
+
+#c1 hr{
+	height: 7px;
+	background-color: #f42535;
+}
+
+span{
+	color: black;
+}
+
+#c3 p{
+	font-size: 18px;
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+p:hover{
+	color: #f42535;
+}
+
+h3,h4,h2{
+	color: black;
+}
+
+h4{
+	font-weight: 600;
+	letter-spacing: 0.1em;
+}
+
+#c4 p{
+	height: 20px;
+}
+
+#c4 a{
+	text-decoration: none;
+	color: #f42535; 
+}
+
+#c1 a{
+	text-decoration: none;
+	color: #f42535; 
+}
+
+#c1 a:hover{
+	color: black;
+}
+
+#c4 a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+
+.h4t{
+	font-size: 18px;
+	letter-spacing: 0.01em;
+	font-weight: 500;
+}
+
+h6{
+	color: black;
+	font-weight: 600;
+	
+}
+
+#li1:hover{
+color: #f42535; 
+}
+
+#c4 span {
+	font-weight: 500;
+	font-size: 28px;
+	text-align: center;
+}
+
+.icon__logo--footer {
+	background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%2253%22%20viewBox%3D%220%200%20120%2053%22%3E%3Cg%20fill%3D%22%23F42535%22%3E%3Cpath%20d%3D%22M81.167%2011.151l1.293%202.909.645-3.07%203.071-.323-2.746-1.616.646-2.908-2.264%201.939-2.583-1.455%201.13%202.747-2.261%202.101zM98.456%2028.117l2.101-2.424%202.748%201.293-1.455-2.585%201.938-2.424-2.908.647-1.616-2.586-.325%203.07-3.068.646%202.908%201.293zM57.738%207.597l2.585-1.939%202.424%201.939-.97-3.07%202.584-1.777h-3.068l-.97-2.909-.969%202.909h-3.07l2.424%201.777zM37.379%2010.99l.646%203.07%201.293-2.909%203.07.324-2.424-2.101%201.293-2.747-2.586%201.455-2.423-1.939.646%202.908-2.585%201.616zM17.182%2026.986l2.746-1.293%202.101%202.424-.323-3.07%202.747-1.293-2.909-.646-.323-3.07-1.616%202.586-3.07-.647%202.101%202.424zM119.784%2049.932l-1.454-2.425H62.585c0-1.938%202.101-1.938%203.231-1.938h51.543l-1.453-2.424H67.109c-1.293%200-3.555.162-4.201.322.646-2.262%204.361-2.424%209.533-2.424h42.172l-1.454-2.423H73.411c-4.04%200-8.079.161-10.181%201.614%201.938-2.745%205.334-3.555%2013.572-3.555h35.225l-1.453-2.424H76.966C64.848%2034.257%2060%2037.328%2060%2047.021c0-9.693-4.847-12.766-16.966-12.766H9.426L7.972%2036.68h35.062c8.24%200%2011.634.81%2013.573%203.555-2.101-1.453-5.979-1.614-10.18-1.614H6.841l-1.454%202.423h42.171c5.333%200%208.887.162%209.533%202.424-.646-.16-2.908-.322-4.201-.322H4.094l-1.454%202.42h51.543c1.131%200%203.232%200%203.232%201.939H1.67L.216%2049.93h57.36v1.454h5.009V49.93h57.199v.002z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 140px;
+	height: 62px;
+	margin-top: 40px;
+}
+
+b{
+	color: #f42535; 
+	font-weight: 300;
+	font-size: 17px;
+	letter-spacing: 0.05em;
+}
+
+#c5 p{
+	font-size: 15px
+}
+
+#c5 p:hover{
+	color: black;
+}
+
+#c5 a{
+	text-decoration: underline;
+	color: black;
+}
+#c5 a:hover{
+	color: #f42535;
+}
+
+#uk a{
+	color: #777;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.uk-list a{
+	font-family: "Arnhem",Times,Courier,serif;
+	color: white;
+	font-size: 13px;
+}
+
+.uk-list a:hover{
+	color: #f42535;
+	text-decoration: none;
+}
+
+#uk ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#uk  a:hover{
+	color: #f42535;
+	text-decoration: none;
+}
