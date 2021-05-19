@@ -1,0 +1,146 @@
+
+body { 
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 400; 
+  color: #555555; 
+  font-size: 14px; 
+  line-height: 24px;
+ }
+
+img { 
+  height: auto;
+  max-width: 100%; 
+  vertical-align: middle;
+   -ms-interpolation-mode: bicubic 
+ }
+
+.btn{
+  background-color: #F6A727;
+  color: white;
+ }
+
+
+h4{
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+
+p { margin: 0 0 20px; }
+
+a { 
+  color: #222;  
+  text-decoration: none;
+}
+
+
+a:hover {
+ color: #ffc30c;
+  text-decoration: none 
+}
+
+#site-header-inner { 
+  position: relative; 
+}
+
+#site-header .wrap-inner {
+ padding-top: 28.5px; 
+ padding-bottom: 28.5px; 
+}
+
+.menu-has-search #site-header #header-search  { display: block; }
+
+#site-header #header-search { 
+  position: absolute; 
+  right: 15px; 
+  top: 50%;
+  z-index: 10; 
+  display: none; 
+  -webkit-transform:
+  translateY(-50%);-ms-transform: translateY(-50%);-o-transform:
+  translateY(-50%);transform: translateY(-50%);  
+}
+
+#main-nav ul { margin: 0px; }
+#main-nav ul li { 
+  position: relative; 
+   list-style: none;
+ }
+
+#main-nav > ul > li { 
+  float: left;
+   padding: 0px 17.5px;
+   font-size: 14px; 
+   font-weight: 600; 
+ }
+
+#site-header .header-search-icon { 
+  display: block; 
+  font-size: 14px; 
+  line-height: 100px; 
+}
+
+#site-header .header-search-form {
+ position: absolute; 
+ right: 0px; top: 100%;
+   width: 270px; 
+   opacity: 0; 
+   visibility: hidden;
+}
+
+.header-style-2 #site-header #main-nav {
+ position: absolute; 
+ right: 0px; 
+ top: 50%;
+  z-index: 99; 
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); 
+}
+.header-style-2.menu-has-search #site-header #main-nav { right: 44px; }
+
+.header-style-2 #site-header .wrap-inner {
+ padding-top: 31px; 
+ padding-bottom: 30px; 
+}
+
+#featured-title {
+ background-color: #f2f2f2;
+}
+#featured-title .featured-title-inner-wrap { 
+  padding: 28px 0px 30px 0px;
+   display: table; 
+   overflow: hidden; 
+   width: 100%;
+}
+
+#featured-title .featured-title-heading-wrap {
+ display: table-cell; 
+ text-align: right; 
+ vertical-align: middle; 
+ width: 65%; 
+ padding-top: 6px; 
+}
+
+#featured-title #breadcrumbs { 
+  display: table-cell; 
+  text-align: left;
+   vertical-align: middle; 
+    width: 35%; 
+    padding-top: 5px; 
+}
+
+#footer { 
+background: url('bg-footer.jpg') no-repeat center center; 
+background-size: cover; 
+ position: relative; 
+ z-index: 1; 
+ padding: 60px 0px 72px 0px; 
+}
+
+span{
+  font-size: 16px;
+  color: #999;
+}
